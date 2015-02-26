@@ -1,0 +1,14 @@
+{
+  "name": "tony-co/partition",
+  "license": "MIT",
+  "description": "Composer script to generate a report of your dependencies",
+  "type": "library",
+  "require-dev": {
+    "composer/composer": "~1.0@dev"
+  },
+  "autoload": {
+    "psr-4": {
+      "Tonyco\\Composer\\": "src/"
+    }
+  }
+}
